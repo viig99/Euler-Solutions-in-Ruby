@@ -1,4 +1,5 @@
 # Word Squares Problem
+# Under Construction, proceed with caution.
 
 WordList = IO.readlines(File.dirname($0)+"/depen_files/words.txt")
 WordList[0] = WordList[0].chomp.split(",").map{|x| x.gsub(/\"/,'').downcase}
